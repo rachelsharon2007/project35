@@ -38,7 +38,7 @@ if(keyWentDown(UP_ARROW)){
 
   drawSprites();
   
-  Fill("black");
+  fill("black");
   stroke("white");
   text("FOOD REMAINING:"+foodS,170,200);
   textSize(15);
