@@ -57,11 +57,11 @@ if(keyWentDown(UP_ARROW)){
         x=x-1;
       } 
     database.ref('/').update({
-
+    Food:x
     })
   }
 
 
 
-Food:x
+
 
