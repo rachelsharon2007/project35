@@ -19,7 +19,7 @@ function setup() {
   
 
   foodStock = database.ref('Food');
-  foodStock.on("value,readStock");
+  foodStock.on("value",readStock);
   textSize(20);
   
 }
@@ -63,5 +63,5 @@ if(keyWentDown(UP_ARROW)){
 
 
 
-
+Food:x
 
