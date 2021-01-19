@@ -1,5 +1,6 @@
 var happyDog, dogImg1, dogImg2;
 var foodS, foodStock
+var database
 
 function preload()
 {
